@@ -1,0 +1,304 @@
+.admin-settings-btn, .admin-settings-btn:hover, .section-divider, .save-btn, .cancel-btn{
+	behavior: url(css/PIE.htc);
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/proximanova-regular-webfont.eot');
+    src: url('../fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-regular-webfont.woff') format('woff'),
+         url('../fonts/proximanova-regular-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_rgbold';
+    src: url('../fonts/proximanova-bold-webfont.eot');
+    src: url('../fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proximanova-bold-webfont.woff') format('woff'),
+         url('../fonts/proximanova-bold-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+	background: #e9e8e8;
+	font:normal 100% "helvetica neue",Helvetica, Arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+}
+
+p, a {
+	font-family: "proxima_nova_rgregular",arial,sans-serif;
+	font-size: .875em;
+	color: #343131;
+}
+
+p {
+	margin:0px;
+	padding:0px;
+}
+
+a {
+	
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.img {
+	max-width: 100%;
+}
+
+.left {float:left;}
+.right {float:right;}
+.center {text-align:center;}
+.full-width {width: 100%;}
+.vert-center-wrapper {position:absolute; width: 100%; height: 100%;display:table;}
+.cell {display: table-cell; vertical-align:middle; text-align:center;}
+.pos-ab {position:absolute;}
+.pos-rel {position:relative;}
+.fixed {position:fixed;}
+.clear {clear:both;}
+
+.wrapper {
+	width: 95.7142857%;
+	padding-left: 2.14285714%;
+	padding-right: 2.14285714%;
+}
+
+.masthead {
+	background: #262829;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.player-container {
+	float:left;
+	position:relative;
+	background: #ffffff;
+	text-align:center;
+}
+
+.player-volume-container {
+	float:left;
+	height: 100%;
+}
+
+.player-volume {
+	position:absolute;
+	background: #262829;
+	height: 4px;
+	width: 125px;
+	top: 50%;
+	margin-top: -2px;
+}
+
+.volume-slider {
+	position:absolute;
+	top: 50%;
+	margin-top: -8px;
+	background: #262829;
+	width: 4px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.player-controls {
+	float:left;
+	margin-right: 40px;
+}
+
+.player-play-btn {
+	background: #262829 url('../img/icons/play-btn.png')no-repeat center;
+	float:left;
+	height: 30px;
+	width: 30px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	margin-left: 12px;
+	margin-right: 12px;
+	cursor: pointer;
+}
+
+.player-next-btn, .player-prev-btn {
+	float:left;
+	height: 24px;
+	width: 24px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	cursor: pointer;
+}
+
+.player-next-btn {
+	background: #262829 url('../img/icons/next-btn.png')no-repeat center;
+}
+
+.player-prev-btn {
+	background: #262829 url('../img/icons/prev-btn.png')no-repeat center;
+}
+
+.player-titles {
+	display:inline-block;
+	text-align:center;
+}
+
+.player-time {
+	float:right;
+	display:inline-block;
+}
+
+.playlist-wrapper {
+	float:left;
+	width: 100%;
+	overflow:hidden;
+}
+
+.playlist-container {
+	margin-top: 50px;
+	width: 90000px;
+}
+
+.playlist-item-container {
+	display:inline-block;
+	background: #ffffff;
+	padding: 20px;
+	width: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.posted-by {
+	font-family: "proxima_nova_rgbold",arial,sans-serif;
+	color: #22a9e0;
+	margin-bottom: 5px;
+}
+
+.time-stamp {
+	color: #b0b6b9;
+	font-family: "proxima_nova_rgregular",arial,sans-serif;
+}
+
+.song-title {
+	margin-top: 5px;
+	font-family: "proxima_nova_rgbold",arial,sans-serif;
+	text-align:center;
+}
+
+.artist-album {
+	font-family: "proxima_nova_rgregular",arial,sans-serif;
+	text-align:center;
+}
+
+.playlist-btn-container {
+	float:right;
+	margin-top: 15px;
+}
+
+.playlist-btn {
+	background: #262829;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: none;
+	color: #ffffff;
+	padding: 5px 15px 5px 15px;
+}
+
+.now-playing {
+	background: #262829;
+}
+
+.now-playing .posted by {
+	color: #ffffff;
+}
+
+.now-playing .song-title {
+	color: #ffffff;
+}
+
+.now-playing .artist-album {
+	color: #ffffff;
+}
+
+.now-playing .playlist-btn {
+	background: #22a9e0;
+}
+
+.footer {
+	position:fixed;
+	bottom:0px;
+	width: 100%;
+	background: #262829;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.footer-title {
+	color: #ffffff;
+	font-family: "proxima_nova_rgbold",arial,sans-serif;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	font-size: 0.75em;
+}
+
+.timeline-wrapper {
+	width: 100%;
+	height: 30px;
+	overflow:hidden;
+}
+
+.timeline-container {
+	position:relative;
+	width: 200%;
+	height: 30px;
+	background: #e9e8e8;
+	cursor:pointer;
+}
+
+.timeline-container:hover {
+	background: #ffffff;
+}
+
+.date-num {
+	float:left;
+	width: 30px;
+	line-height: 30px;
+	text-align:center;
+	font-family: "proxima_nova_rgbold",arial,sans-serif;
+	color: #262829;
+	font-size: 0.75em;
+}
+
+.month-container {
+	float:left;
+	position:relative;
+}
+
+.month {
+	float:left;
+	line-height: 30px;
+	background: rgba(0,0,0,0.7);
+	font-family: "proxima_nova_rgbold",arial,sans-serif;
+	font-size: 0.75em;
+	color: #ffffff;
+	padding: 0 10px 0 10px;
+	z-index:4;
+}
+
+.timeline-song {
+	position:absolute;
+	background: #ed028c;
+	width: 1px;
+	height: 100%;
+}
