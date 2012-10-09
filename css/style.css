@@ -302,3 +302,35 @@ a:hover {
 	width: 1px;
 	height: 100%;
 }
+
+.nav {
+	list-style:none;
+}
+
+.nav-item {
+	float:left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-item a {
+	font-family: "proxima_nova_rgbold",arial,sans-serif;
+	color: #ffffff;
+	text-decoration:none;
+	font-size: 0.875em;
+}
+
+input, textarea, select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   background: #ffffff;
+   border: none;
+   -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.song-search {
+	width: 200px;
+}
