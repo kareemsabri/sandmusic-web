@@ -105,15 +105,19 @@ a:hover {
 
 .masthead {
 	position:fixed;
+	width:100%;
 	background: #262829;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	z-index:2;
 }
 
+.mast-pad {
+	padding-top: 92px;
+}
+
 .page-wrapper {
 	position:relative;
-	padding-top: 92px;
 	width: 1270px;
 	margin-left:auto;
 	margin-right:auto;
@@ -198,9 +202,13 @@ a:hover {
 
 .playlist-wrapper {
 	position:fixed;
-	right:0;
 	margin:20px;
 	width: 360px;
+}
+
+.playlist-wrapper-wrapper {
+	position:relative;
+	float:left;
 }
 
 .feed-container {
@@ -231,6 +239,7 @@ a:hover {
 	color:#262829;
 	font-size: 0.875em;
 	text-align:center;
+	font-weight:100;
 }
 
 .song-list-item {
